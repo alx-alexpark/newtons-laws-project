@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Flex flex-direction="column">
 
-        <Heading className={styles.linearWipe}>NEWTON'S LAWS Project</Heading> 
+        <Heading className={styles.linearWipe}>NEWTON&apos;S LAWS Project</Heading> 
         <Text font-size="medium" className={styles.linearWipe}>WIP, by Alexander Park</Text>
       </Flex>
     </div>
