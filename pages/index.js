@@ -12,7 +12,7 @@ export default function Home() {
         {/* <Column> */}
         <div flex-direction="column">
         <Heading className={styles.linearWipe}>NEWTON&apos;S LAWS Project</Heading> 
-        <Text font-size="medium" className={styles.linearWipe}>WIP, by Alexander Park</Text>
+        <Text fontSize="medium" className={styles.linearWipe}>WIP, by Alexander Park</Text>
         <Link href="/netforce"><a>Netforce Calculator</a></Link>
         </div>
         {/* </Column>
