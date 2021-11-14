@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react"
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import styles from '../styles/NetForce.module.css'
+import styles from '/styles/NetForce.module.css'
 
 export default function NetForce() {
     const [fl, sfl] = useState(0)
@@ -33,7 +33,7 @@ export default function NetForce() {
             setbalanced("Unbalanced")
             setmove(fr < fl ? "Moving Right" : "Moving Left")
         }
-    })
+    }, [fl, fr])
     // fr(force right) sfr(set force right)
 
     return (
